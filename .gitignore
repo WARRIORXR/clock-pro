@@ -7,3 +7,13 @@ target/
 # OS
 .DS_Store
 Thumbs.db
+
+# Secrets & keys — never commit
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+credentials*.json
+secrets.json
